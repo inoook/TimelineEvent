@@ -1,5 +1,7 @@
 # TimelineEvent
 
+![Sample](img.png)
+
 ~~~cs
 public class EventExtraPlayableAsset : EventPlayableAssetBase
 {
@@ -16,8 +18,6 @@ public class EventExtraPlayableAsset : EventPlayableAssetBase
     }
 }
 ~~~
-
-![Sample](img.png)
 
 ~~~cs
 public class TimelineEventSample : TimelineEventBase
