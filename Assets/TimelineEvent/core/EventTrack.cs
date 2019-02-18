@@ -16,7 +16,7 @@ public sealed class EventTrack : TrackAsset
         // 右側のTrack部分
         foreach (var c in GetClips()) {
             EventPlayableAssetBase clip = (EventPlayableAssetBase)c.asset;
-            c.displayName = clip.GetLabel();
+            c.displayName = clip.GetEditorDisplayName();
         }
 
         Playable playable = ScriptPlayable<EventMixerBehaviour>.Create(graph, inputCount);

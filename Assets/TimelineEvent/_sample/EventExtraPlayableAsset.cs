@@ -12,8 +12,8 @@ public class EventExtraPlayableAsset : EventPlayableAssetBase
     public int additionalValue = 2;
     public ContentType contentType = ContentType.A;
 
-    public override string GetLabel() {
-        return "Mod: " + _name + "_" +contentType + "_" + additionalValue;
+    public override string GetEditorDisplayName() {
+        return "Mod: " + clipName + "_" +contentType + "_" + additionalValue;
     }
 }
 

@@ -9,7 +9,7 @@ public class TimelineEventSample : TimelineEventBase
 
     public override void OnEnter(string track, EventPlayableAssetBase asset) {
         string str = "";
-        str += "OnEnter: " + asset._name;
+        str += "OnEnter: " + asset.clipName;
         if (asset is EventExtraPlayableAsset) {
             str += "_Type: " + ((EventExtraPlayableAsset)asset).contentType;
         }
@@ -22,7 +22,7 @@ public class TimelineEventSample : TimelineEventBase
 
     public override void OnExit(string track, EventPlayableAssetBase asset) {
         string str = "";
-        str += "OnExit: " + asset._name;
+        str += "OnExit: " + asset.clipName;
         debugText.text = track + " / " + str;
     }
 }

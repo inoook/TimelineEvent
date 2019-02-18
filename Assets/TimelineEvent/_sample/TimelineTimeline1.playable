@@ -32,7 +32,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: EventPlayableAssetBase
   m_EditorClassIdentifier: 
-  _name: clip1_1
+  clipName: clip1_1
 --- !u!114 &114097214957427248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Mod: 2_clip3_A_2'
+    m_DisplayName: 'Mod: clip1_3_A_2'
     m_Version: 1
   - m_Start: 7.499999999999997
     m_ClipIn: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'Mod: 2_clip3_C_2'
+    m_DisplayName: 'Mod: clip1_4_C_2'
     m_Version: 1
   - m_Start: 2.45
     m_ClipIn: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'clip: 2_clip2'
+    m_DisplayName: 'clip: clip1_2'
     m_Version: 1
   - m_Start: 0
     m_ClipIn: 0
@@ -346,7 +346,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'clip: 2_clip1'
+    m_DisplayName: 'clip: clip1_1'
     m_Version: 1
   m_Version: 2
 --- !u!114 &114342976996216374
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114483972047909692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114502770568772850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114572795356531518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: EventPlayableAssetBase
   m_EditorClassIdentifier: 
-  _name: clip1_2
+  clipName: clip1_2
 --- !u!114 &114648480561601938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114769204066476238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33acdcdc3d20f4dc1a8896b3c8f9b75d, type: 3}
   m_Name: EventExtraPlayableAsset
   m_EditorClassIdentifier: 
-  _name: clip1_3
+  clipName: clip1_3
   additionalValue: 2
   contentType: 0
 --- !u!114 &114972246044183796
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33acdcdc3d20f4dc1a8896b3c8f9b75d, type: 3}
   m_Name: EventExtraPlayableAsset
   m_EditorClassIdentifier: 
-  _name: clip1_4
+  clipName: clip1_4
   additionalValue: 2
   contentType: 2
 --- !u!114 &114996196911040976

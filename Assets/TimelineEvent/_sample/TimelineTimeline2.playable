@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114361284459624464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'clip: clip'
+    m_DisplayName: 'clip: clip2_1'
     m_Version: 1
   - m_Start: 3.7333333333333334
     m_ClipIn: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: 'clip: clip'
+    m_DisplayName: 'clip: clip2_2'
     m_Version: 1
   m_Version: 2
 --- !u!114 &114483972047909692
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114502770568772850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114635212072144450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: EventPlayableAssetBase
   m_EditorClassIdentifier: 
-  _name: clip2_2
+  clipName: clip2_2
 --- !u!114 &114648480561601938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
-  _name: 
+  clipName: clip
 --- !u!114 &114705074209250888
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b457eb02660b48a8984d0614284d74c, type: 3}
   m_Name: EventPlayableAssetBase
   m_EditorClassIdentifier: 
-  _name: clip2_1
+  clipName: clip2_1
 --- !u!114 &114769204066476238
 MonoBehaviour:
   m_ObjectHideFlags: 1

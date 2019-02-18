@@ -251,7 +251,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'TimelineTrack / OnExit: clip2_1'
+  m_Text: 'Track2 / OnExit: 001'
 --- !u!222 &461951804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -640,7 +640,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1877149853}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 30f7a27e401654e1895897e667c7b609, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 04bd10b889efe43ca838b4b8656bd608, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -655,6 +655,8 @@ PlayableDirector:
   - key: {fileID: 114533459588173784, guid: 04bd10b889efe43ca838b4b8656bd608, type: 2}
     value: {fileID: 0}
   - key: {fileID: 114361284459624464, guid: 30f7a27e401654e1895897e667c7b609, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 114133594721908860, guid: cf6d85b025cca4e449ee933a3ed99d26, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References:

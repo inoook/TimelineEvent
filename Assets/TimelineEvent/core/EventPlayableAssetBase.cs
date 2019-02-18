@@ -13,7 +13,7 @@ public class EventPlayableAssetBase : PlayableAsset, ITimelineClipAsset
     }
 
     // 通常の Inspector に表示される。
-    [SerializeField] public string _name = "clip";
+    [SerializeField] public string clipName = "clip";
     
     // Factory method that generates a playable based on this asset
     public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
@@ -27,7 +27,7 @@ public class EventPlayableAssetBase : PlayableAsset, ITimelineClipAsset
         return playable;
     }
 
-    public virtual string GetLabel() {
-        return "clip: "+_name;
+    public virtual string GetEditorDisplayName() {
+        return "clip: "+clipName;
     }
 }
