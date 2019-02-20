@@ -53,6 +53,7 @@ MonoBehaviour:
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
   clipName: clip
+  enableProcessEvent: 0
 --- !u!114 &114361284459624464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -224,6 +225,7 @@ MonoBehaviour:
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
   clipName: clip
+  enableProcessEvent: 0
 --- !u!114 &114502770568772850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -237,6 +239,7 @@ MonoBehaviour:
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
   clipName: clip
+  enableProcessEvent: 0
 --- !u!114 &114635212072144450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -250,6 +253,7 @@ MonoBehaviour:
   m_Name: EventPlayableAssetBase
   m_EditorClassIdentifier: 
   clipName: clip2_2
+  enableProcessEvent: 0
 --- !u!114 &114648480561601938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -283,6 +287,7 @@ MonoBehaviour:
   m_Name: Schedule2PlayableAsset
   m_EditorClassIdentifier: 
   clipName: clip
+  enableProcessEvent: 0
 --- !u!114 &114705074209250888
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -296,6 +301,7 @@ MonoBehaviour:
   m_Name: EventPlayableAssetBase
   m_EditorClassIdentifier: 
   clipName: clip2_1
+  enableProcessEvent: 1
 --- !u!114 &114769204066476238
 MonoBehaviour:
   m_ObjectHideFlags: 1

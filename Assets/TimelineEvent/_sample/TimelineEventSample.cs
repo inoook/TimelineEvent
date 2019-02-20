@@ -7,6 +7,10 @@ public class TimelineEventSample : TimelineEventBase
 {
     [SerializeField] Text debugText;
 
+    public override void OnProcess(string track, EventPlayableAssetBase asset, float normalizedTime) {
+        Debug.Log(track + " / "+normalizedTime);
+    }
+
     public override void OnEnter(string track, EventPlayableAssetBase asset) {
         string str = "";
         str += "OnEnter: " + asset.clipName;
@@ -16,7 +20,7 @@ public class TimelineEventSample : TimelineEventBase
         if (Application.isPlaying) {
 
         }
-        //Debug.Log(str);
+        Debug.Log(str);
         debugText.text = track + " / " + str;
     }
 

@@ -21,12 +21,4 @@ public sealed class EventMixerBehaviour : PlayableBehaviour
     //        bhv.bindObj = rootGObj;
     //    }
     //}
-
-    //public override void OnGraphStart(Playable playable) {
-    //    Debug.LogError("ScheduleMixerBehaviour_OnGraphStart");
-    //}
-    //// Called when the state of the playable is set to Play
-    //public override void OnBehaviourPlay(Playable playable, FrameData info) {
-    //    Debug.Log("ScheduleMixerBehaviour_OnBehaviourPlay");
-    //}
 }

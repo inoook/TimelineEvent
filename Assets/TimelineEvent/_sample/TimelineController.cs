@@ -38,7 +38,7 @@ public class TimelineController : MonoBehaviour
         TimelineAsset timelineAsset = timelines[id];
 
         playableDirector.playableAsset = timelineAsset;
-
+        playableDirector.time = 0;
         playableDirector.Play();
     }
 
@@ -46,6 +46,7 @@ public class TimelineController : MonoBehaviour
     [SerializeField] GUISkin skin;
     void OnGUI() {
         GUI.skin = skin;
+
         GUILayout.BeginArea(drawRect);
         GUILayout.Label(((float)(playableDirector.time / playableDirector.duration)).ToString());
         GUILayout.Label("time: " + playableDirector.time);
@@ -57,7 +58,7 @@ public class TimelineController : MonoBehaviour
                 SelectTimeline(i);
             }
         }
-
+        GUILayout.Space(10);
         if (GUILayout.Button("PlayTimeline")) {
             PlayTimeline();
         }

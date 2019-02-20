@@ -14,13 +14,21 @@ public class EventPlayableAssetBase : PlayableAsset, ITimelineClipAsset
 
     // 通常の Inspector に表示される。
     [SerializeField] public string clipName = "clip";
+    [SerializeField] public bool enableProcessEvent = false;
     
     // Factory method that generates a playable based on this asset
     public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
     {
+        //Debug.LogError("CreatePlayable: "+ graph.ToString() + " / "+ owner);
         var behaviour = new EventPlayableBehaviour();
         behaviour.asset = this;
-        behaviour.owner = owner.GetComponent<TimelineEventBase>();
+
+        TimelineEventBase timelineEventBase = owner.GetComponent<TimelineEventBase>();
+        if (timelineEventBase != null) {
+            behaviour.owner = timelineEventBase;
+        } else {
+            Debug.LogWarning("Add TimelineEventBase component to PlayableDirector.");
+        }
 
         Playable playable = ScriptPlayable<EventPlayableBehaviour>.Create(graph, behaviour);
 

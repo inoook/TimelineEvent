@@ -251,7 +251,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Track2 / OnExit: 001'
+  m_Text: 'TimelineTrack / OnExit: clip2_1'
 --- !u!222 &461951804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -295,8 +295,8 @@ Camera:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -640,7 +640,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1877149853}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 04bd10b889efe43ca838b4b8656bd608, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 30f7a27e401654e1895897e667c7b609, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -662,6 +662,7 @@ PlayableDirector:
     m_References:
     - b1e4a63b08633474a9900c459a84aa77: {fileID: 0}
     - f899059c1362b407b95e7d33127513e4: {fileID: 0}
+    - 8881ca1794853453a95c1eb54f42706f: {fileID: 0}
     - 90c4b4fec8701448c9ab1ca213280513: {fileID: 0}
 --- !u!114 &1877149857
 MonoBehaviour:
