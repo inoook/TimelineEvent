@@ -76,3 +76,6 @@ http://aizu-vr.hatenablog.com/entry/2018/05/05/Timeline%E3%82%92%E4%BD%BF%E3%81%
 
  * Unity2017のTimelineをやってみた  
 https://blog.applibot.co.jp/2017/06/16/unity2017timeline/
+
+ * [Unite2018] スクリプトによるTimelineがっつり拡張入門  
+http://turgure.hatenablog.com/entry/2018/06/26/091954
