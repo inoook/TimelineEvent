@@ -15,7 +15,7 @@ public class EventPlayableAssetBase : PlayableAsset, ITimelineClipAsset
     // 通常の Inspector に表示される。
     [SerializeField] public string clipName = "clip";
     [SerializeField] public bool enableProcessEvent = false;
-    
+
     // Factory method that generates a playable based on this asset
     public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
     {

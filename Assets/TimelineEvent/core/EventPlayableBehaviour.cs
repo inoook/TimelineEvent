@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 
 // A behaviour that is attached to a playable
+//[System.Serializable]
 public sealed class EventPlayableBehaviour : PlayableBehaviour
 {
     public EventPlayableAssetBase asset;
@@ -12,7 +13,7 @@ public sealed class EventPlayableBehaviour : PlayableBehaviour
     public float normalizedTime = 0;
 
     public override void ProcessFrame(Playable playable, FrameData info, object playerData) {
-        // playerData は Trackでbindしたobjectが入る。
+        // playerData はTrackでbindしたobject。
         // このプロジェクトはbindしていないので Null となる。
 
         if (asset.enableProcessEvent && owner != null) {
